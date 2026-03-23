@@ -1,0 +1,41 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  background: #111;
+  color: #fff;
+}
+
+header {
+  background: #000;
+  padding: 15px;
+  text-align: center;
+}
+
+nav a {
+  margin: 0 10px;
+  color: #f4c542;
+  text-decoration: none;
+}
+
+.hero {
+  text-align: center;
+  padding: 50px;
+  background: #222;
+}
+
+button {
+  padding: 10px 20px;
+  background: #f4c542;
+  border: none;
+  cursor: pointer;
+}
+
+section {
+  padding: 30px;
+}
+
+footer {
+  text-align: center;
+  padding: 10px;
+  background: #000;
+}
