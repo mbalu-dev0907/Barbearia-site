@@ -1,4 +1,4 @@
-body {
+body { 
   font-family: Arial, sans-serif;
   margin: 0;
   background: #111;
@@ -18,17 +18,43 @@ nav a {
 }
 
 .hero {
+  min-height: 80vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
   text-align: center;
-  padding: 60px;
-  background: url('https://images.unsplash.com/photo-1600891964599-f61ba0e24092') no-repeat center/cover;
-  color: white;
+  padding: 20px;
+
+  color: #fff;
+
+  background: 
+    linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)),
+    url('https://images.unsplash.com/photo-1585747860715-2ba37e788b70') no-repeat center center/cover;
+}
+
+.hero h2 {
+  font-size: 40px;
+  margin-bottom: 10px;
+}
+
+.hero p {
+  font-size: 18px;
+  margin-bottom: 20px;
 }
 
 button {
-  padding: 10px 20px;
+  padding: 12px 25px;
   background: #f4c542;
   border: none;
   cursor: pointer;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+button:hover {
+  background: #d4a832;
 }
 
 section {
