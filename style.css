@@ -66,3 +66,40 @@ footer {
   padding: 10px;
   background: #000;
 }
+
+.menu-toggle {
+  display: none;
+  font-size: 25px;
+  background: none;
+  border: none;
+  color: #f4c542;
+  cursor: pointer;
+}
+
+/* MOBILE */
+@media (max-width: 768px) {
+
+  nav {
+    display: none;
+    flex-direction: column;
+    background: #000;
+  }
+
+  nav a {
+    padding: 10px;
+    border-top: 1px solid #333;
+  }
+
+  .menu-toggle {
+    display: block;
+    margin: 10px auto;
+  }
+
+  .hero h2 {
+    font-size: 28px;
+  }
+
+  .hero p {
+    font-size: 16px;
+  }
+}
